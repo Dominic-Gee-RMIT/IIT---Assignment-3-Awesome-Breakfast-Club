@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Awesome Breakfast Club</title>
+    <link type=text/css rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+<div class="flex-container-one">
+<div id="headshot-one"> <img src="Headshot-Annesha.jpeg" alt="Headshot of Annesha Sharp" width="300" height="300"/></div>
+<div id="flex-text-one">
+<h4>Annesha Sharp</h4>
+<ui>
+<li>Student ID: S3961179</li>
+<li>Student Email: <a href="mailto:s3961179@student.rmit.edu.au"target="_blank">s3961179@student.rmit.edu.au</a></li>
+</ui>
+<p>“My name is Annesha Sharp, student number S3691179 and I am a member of the team ‘Awesome Breakfast Club’. I am a 23-year-old Software Tester, with one and a half years of experience in the IT industry. In my spare time, I like to embrace creative hobbies such as knitting and sewing and make a great effort to maintain my health with strength training workouts and walking my dog. I discovered my Interest in IT after partially completing an arts degree and feeling unsure of my future career, in my study sabbatical I began working as a database officer and have enjoyed working in IT ever since. I found from experience that I flourish working in IT, and that I really enjoy assisting others to understand Technology.”</p>
+<h5>Ideal job and career plan - Technical business analyst</h5>
+<p>Technical Business Analyst’s overall role involves aligning technology systems with business operations by analysing and developing innovative integrated software solutions. Their duties include providing internal IT support and managing web-based software solutions as well as regularly reporting to management (Technical Business Analyst Job Description, 2022). Currently working as a Software Tester, I am building my experience within the IT industry in a role which works closely with Technical Business Analyst. The role of Software Tester requires strong analytical and problem-solving skills, which I have demonstrated daily. Working in a SCRUM methodology, I also utilise my interpersonal skills to maintain communication with stakeholders and team members, and often work as a back-up SRUM master within the team. In the early years of my career, I have already gained experience in facilitating ICT workshops for User Acceptance Testing, End User Training, and SCRUM Retrospectives. Currently I have many of the foundational skills required for this role and will continue to grow these throughout my study and work opportunities. In my studies I plan to grow my technical knowledge with a particular focus on cloud computing. After graduating from RMIT with a Bachelor of Information Technology, I plan to complete my CBAP through the International Institute of Business Analysts. Through my current work, I also plan to undertake professional development secondments which can assist to grow my experience as a business analyst. </p>
+</div>
+
+    </div>
