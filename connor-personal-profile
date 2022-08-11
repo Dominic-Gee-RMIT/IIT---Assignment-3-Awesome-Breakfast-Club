@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Awesome Breakfast Club</title>
+    <link type=text/css rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container"> 
+<div class="flex-container-two">
+<div id="headshot-two"> <img src="Headshot-Connor.jpeg" alt="Headshot of Connor Simpson" width="300" height="300"/></div>
+<div id="flex-text-two">
+<h4>Connor Simpson</h4>
+<ui>
+<li>Student ID: s3965238</li>
+<li>Student Email: <a href="mailto:s3965238@student.rmit.edu.au"target="_blank">s3965238@student.rmit.edu.au</a></li>
+</ui>
+<p>“Hi there, my name is Connor James Simpson, my RMIT student number is; s3965238 and I am a member of the team: Awesome Breakfast Club. I come from a middling family, both mum and dad have worked in a variety of jobs, and I went to a public school. Made friends and lost friends and eventually found who my real mates were through trial and error! Education wise I have completed year 12 and done a Certificate II in Information and Technology. On top of that, if you can believe it, I am a college drop-out! My home language is English, though my folks, my sister and I all speak a little bit of everything, some days we will greet each other in a mix of English, German and French or ask for something in any number of other languages that we have investigated and studied enough to have some basic understanding of, what can I say, we all enjoy languages though we were all born in Australia. When it comes to down time, I enjoy gaming, whether its video games or tabletop RPG’s so long as I get to chat with some mates and celebrate good wins, I am a happy Chappy!”</p>
+<h5>Ideal job and career plan - Cybersecurity analyst</h5>
+<p>Cyber Security Analysts works to protect the hardware, software and networks of the company, organisation or individual they work for from cybercriminals and attacks. They need to understand the IT infrastructure in detail, have a means of monitoring the system at all times whilst evaluating threats that could breach the network and threaten the security of the company. Overall, they’re job is to attempt to enhance the network security and protect sensitive information by those they’re employed by (How to become a Cybersecurity Analyst, 2022).  The skills the company is asking for are pretty standard for someone who would have some degree of Cyber Security experience. It’s clear they want someone who has a degree under their belt and with knowledge pertaining to the standard activities of what a Cyber Security specialist would know, from system architecture and infrastructure security to knowledge surrounding technological trends and developments. Communication, as with any job really, is a must, and they want someone who knows information security and risk control. At best my skills and experience are rudimentary at best, I know my way around most programs and am a quick study when it comes to problem solving, though I generally have to be shown the problem in the first place. I’m highly adaptive when the situation calls for it and can be good under stress, usually keeping cool, calm and collected, though some may call it detached. My time spent working for Beer Wine and Spirits, a retail company, has allowed me to grow my communication and engagement sells greatly during the time I worked there. I don’t really plan so much as undertake a series of events and force the flow of those events to allow me to get what I want, in this instance the study I am doing would be more than sufficient. The goal is to undertake each section of study and work my way towards completing each part with, at the very least, minimum passing requirements. Naturally I would like to do the best possible but it’s not always doable. The courses I am undertaking at present will take me the rest of this year and into next year to complete. I’m unsure how long it will take to complete the follow-on tasks, but at a rough estimate I would say between 2-4 years if I’m being optimistic. I guess the plan is to study hard, having said all that. </p>
+</div>
+    
+    </div>
