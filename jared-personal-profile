@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Awesome Breakfast Club</title>
+    <link type=text/css rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container"> 
+<div class="flex-container-four">
+<div id="headshot-four"> <img src="Headshot-Jared.jpeg" alt="Headshot of Jared Martin" width="300" height="300"/></div>
+<div id="flex-text-four">
+<h4>Jared Martin</h4>    
+<ui>
+<li>Student ID: s3960173</li>
+<li>Student Email: <a href="mailto:s3960173@student.rmit.edu.au"target="_blank">s3960173@student.rmit.edu.au</a></li>
+</ui>
+<p>“My name is Jared, my student number is s3960173 and I am a part of the team: Awesome breakfast club. am an aspiring IT (Information Technology) student of RMIT (Royal Melbourne Institute of Technology). I am starting my journey again into the world of education after the 2 years of break from the schooling system to set myself up for the future ahead (as well as the hindrance of covid). I moved away from my hometown after graduating year 12 to re-evaluate myself and what I wanted to do for the future. Using the extra free time, I had I began to pick up hobbies and interests I was not able to do from my old home. I went out to buy my first skateboard being unsure if I was going to be interested and invested enough to learn. The first few days were like learning to walk again with my balance completely off for every new movement I tried. Although I still feel like a novice to the sport and have much to learn, it has become the most peaceful, calming, and fun activities that I am dedicated to mastering. Skateboarding allowed me to strengthen my physical abilities, clear my mind when needed, as well as understanding how to express myself internally and externally. Using my love for skateboard art and the board itself to express myself within the sport by using the skills I had learned and the art I use to convey my love for the sport and emotions.”</p>
+<h5>Ideal job and career plan - Cyber Analyst</h5>
+<p>Cyber Analysts are an army career that goes through the Cyber Specialist pathway they share a similar role to the Cyber Security Analyst however they’re capacity as a military unit changes a great deal of things. They are dedicated to defending military systems and networks, ensuring they remain secure and stable alongside finding rapid-fire solutions to defend against cyber threats. Furthermore, where a Cyber Security Analyst is part of the corporate field, the Cyber Analyst’s military role means they are working with other agencies, governments and international organisations, here they also operate at a tactical and strategic level conducting cyber activities to defend and assure the integrity of their systems (Cyber Analyst, 2022).  The role can be entered without any experience or qualifications other than being 17 or over. The role can be entered unqualified or fully qualified. Preference will be given towards people who display skill, interest and experience relevant to ICT (Information and Communications Technology). The job is still a competitive application process which will require adequate competencies for the role. The period for trainees will have a lower income within their salary from $51,277 P.A. (per Annum) Full trained employees will have a base salary of $77,138. The minimal education allowed is completed year 10 of high schooling English, mathematics, or an equivalent education. Currently I have no qualifications other than completed schooling that will allow me to go into the role fully qualified. I hope to have the basics of the training already completed before entering the role. This should improve my chances of getting the role over others. I plan at minimum to gain my basics degrees in IT and ICT and choose a direction to focus on in Cyber security. Otherwise, I may decide to study and improve on my skill before applying for the role. </p>
+</div>
+    
+    </div>
