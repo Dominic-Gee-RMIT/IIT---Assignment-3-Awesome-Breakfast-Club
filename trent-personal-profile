@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Awesome Breakfast Club</title>
+    <link type=text/css rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">  
+<div class="flex-container-five">
+<div id="headshot-five"> <img src="Headshot-Trent.png" alt="Headshot of Trent Shaw" width="300" height="300"/></div>
+<div id="flex-text-five">
+<h4>Trent Shaw</h4>    
+<ui>
+<li>Student ID: s3960170</li>
+<li>Student Email: <a href="mailto:s3960170@student.rmit.edu.au"target="_blank">s3960170@student.rmit.edu.au</a></li>
+<li> Team name: Awesome Breakfast Club. </li>
+</ui>
+<p>“I was born here in Australia in a country hospital at the time now a major hospital in Busselton I have not really been brought up with any cultural background spent most my life inside and kept to myself mainly because I had been put in one of the to hard basket. education to date: high school Yrs.9, working at heights, confined spaces, gas atmosphere testing, construction white card, demonstrate first attack fire equipment, confined small workplace emergencies, safe food handling preparation. languages spoken: English mainly, basic Dutch” </p>
+<h5>Ideal job and career plan - Security Development</h5>
+<p>Security Engineers keep a company’s security systems up and running including, but no limited to implementing and testing new security features, planning computer and network upgrades, and troubleshooting and responding to security incidents. They are also tasked with identifying security measures to improve incident response times, responding to security incidents and coordinating incident response across teams (What is a Security Engineer?, 2022).  </p>
+</div>
+    
+    </div>
