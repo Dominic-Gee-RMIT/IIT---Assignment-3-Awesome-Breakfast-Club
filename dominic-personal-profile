@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Awesome Breakfast Club</title>
+    <link type=text/css rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">   
+<div class="flex-container-three">
+<div id="headshot-three"> <img src="Headshot-Dominic.jpeg" alt="Headshot of Dominic Gee" width="300" height="300"/></div>
+<div id="flex-text-three">
+<h4>Dominic Gee</h4>   
+<ui>
+<li>Student ID: s3961464</li>
+<li>Student Email: <a href="mailto:s3961464@student.rmit.edu.au"target="_blank">s3961464@student.rmit.edu.au</a></li>
+</ui>
+<p>“Hi! I usually go by ‘Dom’, student number S3961464 and I am a member of the team ‘Awesome Breakfast Club’. I’m naturally hard-working and outgoing with a positive outlook. I can quickly build meaningful relationships and I gravitate towards people who are self-motivated. Should issues unfortunately arise, I believe in fully understanding the view of all involved by discussing them openly and honestly. I also believe that there is always a reasonable solution that can suit all parties in such instances. I enjoy walking in the woodland with my wife and dogs, watching a variety of sports and movies, particularly fantasy or sci-fi, reading fantasy books and trying to keep up with current affairs. I am currently studying toward a Bachelor of Commerce in my spare time, being one year into the six-year, part time degree, I have a long way to go but am enjoying the learning experience. My wife and I are also excitedly expecting our first child on the break of the coming new year, so we are spending lots of time planning for them!”</p>
+<h5>Ideal job and career plan - Financial Accountant</h5>
+<p>Financial Accountants are responsible for, obviously, running the accounting and financial activities of an organisation. They analyse the economic stability of the company and provide financial information to other departments to make budgeting and investment decisions. They report on costs, productivity, margins and company expenditures alongside tax and inventory, balance sheets, funding advisory and internal audits, among a plethora of other things (Financial Accounting Job Description Guide, 2022).  Since I have no qualifications or experience with accounting, my first goal is to complete a bachelor’s degree in commerce, majoring in accounting and taxation. This is a basic requirement to be accredited by ASIC, the governing body for accounting practices in Australia. Once I have completed my degree, I will look to obtain an internship, so that I can learn key areas of the industry with guidance from experienced professionals, gain experience with budgeting and cyclical reporting get to know useful day to day tools and build toward the 3 years’ experience required by roles such as this, which I would like to work in one day.  In the meantime, if the internship does not provide experience with Lettus Distribution system or BI/BO, then I will watch YouTube videos or access industry forums to enhance my knowledge of such products. I could also enhance my knowledge of agriculture or horticulture by taking a vocational break, volunteering with fruit picking seasons in the regional areas of my home state.</p>
+</div>
+    
+    </div>
