@@ -128,31 +128,200 @@ The other considerable change we have made, is that we have split into two group
 <p>Trent: Not available</p>
 <h3>Project description</h3>
 <h4>Topic</h4>
-<p></p>
+<p>For our IT Project Idea, the Awesome Breakfast Club Group are developing an application for mobile and wearable devices which allows users experiencing chronic pelvic pain symptoms to easily record the pain from their Smart Watch. From Annesha’s personal experience with Endometriosis, diagnosis can be a long and arduous process, often requiring patients to keep a detailed log of the pain and symptoms. This application aims to create an easily accessible method of recording a patient’s pain and symptoms in daily life, to assist in the diagnosis and treatment of common pelvic pain disorders such as Endometriosis, Adenomyosis, and Polycystic Ovarian Syndrome. Rather than having to pause activities to record their pain symptoms, this application will allow users to simply record their pain level and frequency from the home screen of their tablet, Smart phone or Smart Watch. All these records are then stored within a secure cloud database, which can then be downloaded and reviewed in a consultation with their health professional to uncover any trends. Originally this project was designed to be an iPhone and apple watch application, to integrate with the company’s well-formed health applications. Due to resourcing restrictions the team have decided to focus on building the initial application using easily accessible Microsoft office programs, as building this software will require additional software development skills, which are not currently within the team’s skillset. In the long term, this application will ideally be accessible across Android, Google, and Apple devices. </p>
 <h4>Motivation</h4>
-<p></p>
+<p>Being diagnosed with the chronic pain condition Endometriosis is often a long and time-consuming process, requiring regular specialist appointments, treatment trials and often laparoscopic diagnostic Surgery.  On average an Endometriosis diagnosis can take approximately seven years to diagnose from the onset of symptoms (AIHW, 2019). In these seven years, patients are likely to see many different specialists to establish pattern in their pain symptoms and eventually to diagnose their chronic pain. According to Lone Hummelshoj, Chief executive of the Endometriosis Research Foundation, one of the primary reasons for this lengthy diagnosis period, is the normalisation of painful periods (Dysmenorrhea) (Broster 2020). In conjunction with normalised Dysmenorrhea, delays in diagnosis can also be caused by the overlap of Endometriosis symptoms with other gynaecologic and gastrointestinal diseases (Surrey et al, 2020). In diagnosing Endometriosis, some of the most common questions patients receive from their specialist are “How often do you get this pain?” and “When and where do you get this pain?”. However, when patients experience painful cramps daily, it’s common for the patient to feel ill-equipped to answer these questions or embarrassed, often resulting in vague and inaccurate answers, depicting non-specific symptoms (Surrey et al., 2020). By equipping patients with a tool to accurately record their pain symptoms immediately at the time of experiencing them, patients are empowered to provide their doctors with accurate information. In providing this resource, it is hoped that doctors will have more information available about the patient’s symptoms to determine if it is mild Dysmenorrhea, or something more serious like Endometriosis. This application can also be used after diagnosis to track a patient’s progress when receiving treatments, for doctors to evaluate if treatments are effectively reducing pain.</p>
 <h4>Landscape</h4>
 <p></p>
 <h4>Aims</h4>
-<p></p>
+<p>Our aim for this project is to create a pain management application that is compatible with smart phones and smartwatches. We aim to do this by firstly establishing a platform to create the application on. The decision will fall on 2 potential options which will include an application or platform based using coding techniques, and another for a quicker and easier setup on an application so that time limits are met, and issues are minimised. The application must be compatible with mobile phones and smart watches. If the time limit does not allow for the implementation of smart watch usability the application must be viable for smart phones. While designing the application and the usability for the smart devices we aim to find a suitable database to work with storing and users' data. This will enable the results to be opened from the servers as a backup and an accessible information source for doctors who are treating the pain using the app. If the database was to fail at any point or we are unable to source a suitable one within the original time limit the information will be stored and sourced locally from within the user's app and will be stored locally when the database is operational as a backup. After getting the initial functionality of the application working, we aim to create an attractive and efficient user interface so that the application will be a more friendly and appealing option for people to use. Our last goal which may need to be implemented earlier, is to link the original application from the software which we develop it to a popular application store (google play or apple store). This will allow it to be downloaded for users easily and stored on the smart device. </p>
 <h4>Plans and Progress</h4>
-<p></p>
+<p>Our research for this project began with the basic steps of how to create an application because across the group we had no understanding of what was required or what products allow for the building of an application. We started by searching for similar apps and trying to find information on how these were built, but unfortunately had no luck. After that Dominic began looking for ways to build an app in general and came across a video on how to create a ‘timesheet application’ via ‘Microsoft Power Apps’ (Deasey, 2022). This seemed like a great place to start for us for a few reasons, first of all it provided a step-by-step process of how a basic application can be made, secondly it is financially viable because we all have free access to ‘Microsoft Office’ through our RMIT emails and finally, because our application is effectively a very basic form of timekeeping (for pain events).</p>
+<h3>Initial Prototype:</h3>
+<p>Our next step was to utilise ‘Microsoft Power Apps’ to build a prototype of our application so that we could start to gain an understanding of the requirements and systems that might be used for our final product. The tutorial video suggested a variety of data sources which we are compatible with ‘Power Apps’ but we decided to choose ‘Sharepoint’. We chose ‘Sharepoint’ because it is free with our RMIT email addresses, it is compatible with ‘Power Apps’ and it doesn’t require an extensive set up or knowledge to use it effectively. The first step of creating the application was to organise the data source to a list/table style so that the columns represented the information titles, such as username, time of pain and level of pain. 
+The username column was created as an ‘ID’ column. This records the users email address upon submission.  
+The column for our time record was selected as a ‘date & time’ column and we turned on the feature which records the current time when the entry is created. 
+The column for the ‘pain level’ was created as a ‘choice’ column. ‘Sharepoint’ allowed us to enter as many choices as we wanted for this column. We added 10 choices, in line with standard medical pain rating systems.  
+The rows would then be populated with relevant detailed information each time data entry was submitted from the application.  
+An important note at this stage is to remember the title names of chosen columns, because when we started building the app whilst watching the tutorial, the differences our title names and the tutorials title names caused confusion and added a considerable amount of time to the process. 
+The next step of the process was to start building the user interface of the application so that the records could be populated. When creating an application in ‘Power Apps’, it gives the format options of ‘Tablet’ or ‘Phone’. Since our application is being created to offer a quick response for people to record their pain and so, for the purposes of our prototype, we chose the phone as it is the most accessible option to our potential users. We then linked our data source ‘Sharepoint’ to the application, which made our columns available to be used in the application. Our design was to have a simple, user friendly interface with minimal steps. To achieve this, we decided that the application needed a drop-down list of the 10 pain levels and a button to record that pain. To make the application intuitive, we put the pain level drop down list above the submit button so that it represented a top to bottom order of process. We had decided to make the colour theme the same as the website we had created. Once the basic layout of the application was complete, we had to make the buttons functional. For the ‘record pain’ button, this meant we had to link a ‘patch’ function which, along with other abilities, creates records in our chosen data source. Whilst doing this, we add the required data to the patch such as user email and the pain level which the user selects from our drop-down list. We do this so that the app pulls all the information which we want to be recorded in our data source. We tried to find an SDK application builder that would be more suitable to an open market. In our initial search we found one called xcode, which although would be suitable, it was limited to use on iOS devices and therefore reduces our potential market. 
 <h4>Roles</h4>
-<p></p>
+<p>We did not set specific roles for the design and development of our application because the app design program which we used, Bubble io, did not have a free option which allowed multiple users to edit the application remotely. This meant that only one person could be elected to physically develop the application. We often shared screens whilst Trent was working on our application so that we could all offer input to the user interface, application features and its functionality, this led to all group members contributing toward all roles required to create the application. We found that this method was also pertinent to the nature of the group assignment in that we were collaborating on all aspects of the application development. </p>
 <h4>Scope and limits</h4>
-<p></p>
+<p>Our application is being created to improve the frequency which people suffering from undiagnosed chronic pain conditions record their pain, so that they can accurately report back to their GP in hopes of being diagnosed more quickly. To do this, we need to develop a record keeping application that is available and easy to use for our target audience even at the most inconvenient times. This application therefore needs to have a seamlessly simple user interface which records the users ID in form of an email address, the time of their pain episode and the intensity of their pain. We aim to achieve this level by the time our assignment is due, but scope beyond this may include the ability to add specific notes to a pain record at a more convenient later date in order to improve feedback and face recognition log-in to improve user interaction. In future updates to the application, we will introduce cycle tracking as an optional feature in the mobile application. As the application is supporting those experiencing chronic pelvic pain, which can have adverse effects on fertility (depending on the condition), it is important that the application prioritises pain management, rather than focusing on the user's fertility. For this reason, the Cycle Tracking feature will allow for ovulation and period tracking, but it will not focus on fertility and conception. Utilising the knowledge of Medical professional, future versions of the app will also provide users with insight as to how the frequency and intensity of their pain compares to standard period pain.</p>
 <h4>Tools and Technologies</h4>
 <p></p>
 <h4>Testing</h4>
-<p></p>
+<p>In Software testing there are four levels of testing; Component Testing, Integration Testing, System Testing, and Acceptance Testing (Reference ISTQB). In the development of the prototype applications, we are using Component testing to verify the individual functionality of components such as buttons and fields. Once the individual components have been tested, we have then used Integration Testing to verify the different components function in isolation and together. Using Component and Integration testing early in the development process will reduce the presence of defects and bugs early in the process and reduce the time required for System Testing. With the individual components and their integration tested in development, we can then move on to System Testing, which involves testing all the components together as a whole application. System Testing of the application prototype will involve functional Blackbox testing. Functional Blackbox testing involves testing the user interface against the application requirements. As mentioned in the previous sections, the aim of the application is to allow users a quick method of entering their pain occurrences, so in this case some of our application requirements would include:</p>  
+<ui>
+<li>Users can select the “Rapid Entry” button and the selector for pain intensity will display</li>
+<li>Upon selecting the intensity of the pain, the user is taken to a confirmation screen, displaying the date and time of the occurrence, and the intensity selected</li>
+<li>When the confirmation page is displayed, the entry is saved in the database.</li>
+<p>With these requirements established, we can then develop test cases containing step by step instructions as to how the application will be used in test. These test case will utilise a variety of variables to test both intended (positive) and unintended (negative) usage of the app. This behavioural testing will verify the functionality of the user interface and that it can only be used as intended, reducing the likelihood of bugs within the application. The second part of Blackbox testing will be verifying the interface connection between the application and the database, in this form of testing all possible variables within the app are tested to ensure they transferred to the database. With Component, Integration, and System Testing completed in the development environment, we will the complete further System testing of the applications on Mobile Phones and Smart Watches, then we can progress to the final stage of testing; Acceptance Testing. This is similar to System Testing, however it is not used for the purpose of detecting defect, but rather to verify that all stakeholders are  satisfied with the application prior to release.</p>
 <h4>Timeframe</h4>
-<p></p>
+<p><table>
+                        <tr>
+                            <th>Week</th>
+                            <th>Main Objective</th>
+                            <th>individual tasks</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Decide a project and create a list of the key elements.</td>
+                            <td><ui> 
+                                        <li> Annesha- create idea</li>
+                                        <li> Connor- assist in idea development</li>
+                                        <li> Dominic- assist in idea development</li>
+                                        <li> Jared- assist in idea development</li>
+                                        <li> Trent- assist in idea development</li></td>
+                        </tr>
+                        <tr>
+                                    <td>2</td>
+                            <td>Research similar applications and create a list of required products to create a prototype </td>
+                            <td><ui> 
+                                        <li> Annesha- Research app development platforms and present to team</li>
+                                        <li> Connor- Develop user interface ideas and present to team</li>
+                                        <li> Dominic- Research app development platforms and present to team</li>
+                                        <li> Jared- Research suitable databases and present to team</li>
+                                        <li> Trent- Research suitable databases and present to team</li></td>
+                        </tr>
+                        <tr> 
+                            <td>3</td>
+                            <td> Create a prototype of the app in PowerApps. </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic-  Create prototype in ‘PowerApps’</li>
+                                        <li> Jared- Provide functionality advice</li>
+                                        <li> Trent- Create prototype in ‘Bubble’</li></td>
+                        </tr>
+            <tr> 
+                            <td>4</td>
+                            <td> Test prototype for any issues or improvements.</td>
+                            <td> <ui> 
+                                        <li> Annesha- Lead tester</li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>5</td>
+                            <td> Research similar applications and create a list of required products to create the app using correct software. </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>6</td>
+                            <td> Create application in software that is more accessible.  </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>7</td>
+                            <td> Test application as a user and list suggested improvements. </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>8</td>
+                            <td> Make improvements on application. </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>9</td>
+                            <td> Collect 3rd party user feedback on the application.  </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>10</td>
+                            <td> Assess feedback and discuss its legitimacy. </td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>11</td>
+                            <td>Plan for viable improvements following feedback.</td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>12</td>
+                            <td>Make viable improvements.</td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>13</td>
+                            <td>Test application to ensure improvements are working.</td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>14</td>
+                            <td>Release application to the public.</td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+            <tr> 
+                            <td>15</td>
+                            <td>Monitor and update as required.</td>
+                            <td> <ui> 
+                                        <li> Annesha- </li>
+                                        <li> Connor- </li>
+                                        <li> Dominic- </li>
+                                        <li> Jared- </li>
+                                        <li> Trent- </li></td>
+                        </tr>
+                    </table></p>
 <h4>Risks</h4>
-<p></p> 
+<p>A few of the risks we have reviewed and perceived as important while planning the project are issues related to creating the project and issues surrounding after its completion. While deciding on the software to develop the project we still risk roadblocks that effect the creation of the app such as features that have been overlooked or misinterpreted that cause us to need to create a new solution around the issue or complete redesign of sections of the app. This sequentially follows the issue of storage failure that could be derived from the software compatibility with certain storage systems that were considered. Aswell as storage location and information becoming corrupted. This will hopefully be resolved with the plan to store locally so that the information is stored twice and if needed the data can be pulled directly from the users mobile on request. Security of the app is another risk that will need to be given attention to consistently which is to protect the data/information from and about patients. We plan to add security layers within the app and database such as first step plan of using Microsoft account as the only login application. Having the app as an easy to use, reliable, and trustworthy source of information for analysis is another concern and risk. This includes misuse of the app for personal gain such as those using for access to certain medications. Though it cannot be eradicated we intend to implement restrictions that will limit it. The goal is to have restrictions on editing the entered information which is another focus of ours which is to allow the app to forgive mistakes when entering information incorrectly. The limitations will stop people from editing previous dates, delayed repeat inputs. Relaying back to editing the information input by the user, the user will have a small-time frame window to edit the input in-case they have entered any information wrong as well as a window stopping them to continue to review their input information. Our biggest risk in creating this project is the competition based in the marked and the qualifications to gain support to accept for medical diagnosis. Creating the application to compete with others will push us to implement more advanced features that can be used easily for any user. As well as to prove its legitimacy for medical examination</p> 
 <h4>Group processes and communications</h4>
-<p></p>
+<p>Despite communicating across multiple time zones, we have managed to keep regular meetings by having constant discussion via Microsoft teams chat function and via a private discord group. These open chat forums have allowed us to note any schedule changes and find suitable times for us all to meet up. The use of multiple platforms has had pros and cons. It has meant that our group has had to learn how to use multiple platforms and opens the opportunity for information to be missed or overlooked, however it has also offered each person the use of a platform which they are more comfortable with and therefore promoted inclusivity and engagement. Our meetings have been great for updating each other on our progress and ensuring that we haven't had multiple people working on the same sections of the assignment, but mainly they have facilitated the opportunity to share our perspectives on aspects of the assignment, allowing us to have deeper understanding of the requirements and to produce ultimately a higher quality of work than we would have done if we had not collaborated so closely.</p>
 <h4>Skills and Jobs</h4>
-<p></p>
+<p>Moving forward to improve and advance our project, we are looking into taking up new positions. We will be introducing people to roles that we deem essential in creating a functional and exceptional product. We reviewed the skills required and their roles in creating the application. The first role we looked for was a role that would take a position to understand the project and create goals and stable communication and functionality between other positions. We decided to add a Project manager whose role is to ensure the product is produced efficiently and effectively. Time managing, budget, quality control, and communication are a few of the tasks surrounding the role. They keep the team members informed and proactive while using their knowledge to help invest their own efforts into the project. The project managers skills must include strong communication abilities, time-management, as well as organizational skills and multi-tasking, as well as have a technical background and hands-on experience in software development and web technologies. Another role we decided to employ is a UI/UX designer. They take the initial conception and design the appearance and many added features of the app. They are the concept artists of the project who create and design the profile for the app to ensure that it is user friendly and has an appealing design, they will work closely with the project manager and app developers to ensure the project follows the design. The skills and experience for this role is to have good communications skills, time-management, knowledge of wireframe tools such as wireframe.cc and InVision, experience as a UI/UX designer or a similar role, as well as a BSc (Bachler of science) in Design, Computer science, or any relevant field for the role that could be considered. They may be judged based on previous work or a presentation regarding their role. To create the app the most crucial to making any progress were the developers. We’re considering areas of expertise and aim to include developers who specialise in mobile and/or smart watch programming. This way we will be sure to have members who understand the compatibility and implementation to our goal of phone and smartwatch compatibility.  Their role will be to program and create the application based on the guidance of the Ui/UX designers and project manager. The skills needed for the role are: a deep understanding of mobile and smartwatch compatibility, proficiency in at least one programming language such as java (keeping the programming language capabilities settled on one), familiarity with programming tools such as Git, Visual studio code, interpersonal skills, problem solving and analytical skills and understanding of OOP (Object orientated programming) design principles. They are the builders of the project, piecing together the project and fixing possible problems. Our fourth role we investigated was a QA (quality assurance) engineer. We realise the importance that our project works without any issues. The QA engineers' job is to ensure that there are no bugs with the application, such as crashing bugs, performance issues, data saving issues and much more. Another role of the QA engineer that we need is their ability to adapt to various devices. This may mix with the mobile app developers while creating the application and will give us the proper ability to adapt to smartphones and smart watches </p>
 <h4>Feedback</h4>
 <p></p>
 <h4>Group reflection</h4>
