@@ -224,7 +224,37 @@ The other considerable change we have made, is that we have split into two group
 <p>Our design was to have a simple, user friendly interface with minimal steps. To achieve this, we decided that the application needed a drop-down list of the 10 pain levels and a button to record that pain. To make the application intuitive, we put the pain level drop down list above the submit button so that it represented a top to bottom order of process. We had decided to make the colour theme the same as the website we had created. </p>
 <p>Once the basic layout of the application was complete, we had to make the buttons functional. For the ‘record pain’ button, this meant we had to link a ‘patch’ function which, along with other abilities, creates records in our chosen data source. Whilst doing this, we add the required data to the patch such as user email and the pain level which the user selects from our drop-down list. We do this so that the app pulls all the information which we want to be recorded in our data source.</p>  
 <p>We tried to find an SDK application builder that would be more suitable to an open market. In our initial search we found one called XCode, which although would be suitable, it was limited to use on iOS devices and therefore reduces our potential market. After looking into it Bubble io seems to be a viable option for our needs and so we have decided to create the application on that platform. </p>
+                <h3>Phone Application Prototype:</h3>
+<p>So, for the app development and design of the app we have found a pre-built site that allows us to design and program as we go at the same time as testing due to the lack of ability for me to type I will do my best to explain what I've gone through over the past few weeks</p>
+<p>In the beginning it was a lot of just trial and error trying to find a website that allowed us to flesh out what we were looking for at first, we had looked at XCode and ... but then we found an application called Bubble.io. Unfortunately, it wasn’t an app we were able to use without an account so I took the sign-up process and continued to investigate finding whether this application would suffice. </p>
+<ui>
+    <li>Drop down tab added	 </li>
+    <li>Slider design decided  </li>
+    <li>Button registry added </li>
+    <li>Workflow programming started </li>
+    <li>Drop down tab csv added </li>
+    <li>Microsoft login plugin  </li>
+    <li>Slider changed from a range to simple </li>
+    <li>Slider background designed but not added  </li>
+    <li>Workflow programming finalisation </li>
+    <li>Group decision on input to 1 per 120sec </li>
+                </ui>
+                <h3>Current Smart Watch Application Prototype: </h3>
+  <p>Similar to the Mobile application prototype, the watch application prototype has been built using Bubble.io. Due to the limitations of Bubble.io, the initial smart watch prototype has been built in the same fashion as a mobile application in bubble.io, however the screen dimensions have been specified to match the dimensions of an Apple Watch.</p>  
 
+<p>The Prototype watch application has been built to initially open on the “Pain Entry” screen which displays with two buttons “Enter now” and “Remind Me Later”. When “Enter now” is selected, the “Intensity” screen displays with the prompt “Rate your pain on a scale of 1 (mild) to 10 (Worst):” and a drop-down selector ranging from one to ten, with an “OK” button displayed below. Once the user has selected the pain intensity score from the dropdown and selected “OK”, a confirmation screen then displays with the date and time of the entry and the intensity selected. </p>
+
+<p>Alternatively, if the user selects the “Remind me Later” button on the “Pain Entry” screen, a confirmation screen will display with the message “Your entry at [Current date/time] has been saved. We will remind you via notification in 30 minutes to enter the intensity of the pain.” </p>
+  <div id="headshot-one"> <img src="Pain-Entry.png" alt="Pain entry screen" width="150" height="150"/></div><div id="headshot-one"> <img src="Intensity.png" alt="enter intensity screen" width="150" height="150"/></div><div id="headshot-one"> <img src="Entry-Confirmed.png" alt="confrimation screen" width="150" height="150"/></div>
+ <p>In Bubble.io, all these pages have been built by first developing the visual aspects of the page such as text, buttons and dropdowns. Then once the user interface was completed, the workflows were created for each button by linking the action required to the relevant button which in turn displays desired information on the next page. As each page and workflow has been added, the components have been tested using the ‘Preview’ option in Bubble.io and debugging early in the development process. </p>
+                <h3>Future plans for the application:  </h3>
+                <p>The next steps for developing the watch application are integrating the mobile and watch applications. By connecting the two applications to a single account, users will be able to log in to their account via their watch for a quick record and their mobile phone when appropriate to either expand on the brief record or to view previous records and identify ongoing trends. </p>
+
+<p>Using Bubble.io, we will be able to build the application to be compatible for both Apple and Android devices. However, building the Smart Watch applications for release will require additional software as this is not currently a service provided by Bubble.io. The Android Smart Watch application will be built using a Wear OS project template in Android Studio, and then integrated with the mobile watch application (Android Developers 2022). The Apple version of the Smart Watch application will be built using Xcode and Swift UI (Apple Developer 2022). </p> 
+
+<p>Once the apps are developed and tested, it will initially be released to the public using Google Play Console to publish to the Google Play Store for Android devices (Google Play 2022). For our secondary release to Apple devices, we will submit the applications for review using App Store Connect, which upon approval can be published to the App Store (Apple Developer 2022).  </p>
+
+<p>Once released to the public, we will also be releasing regular updates to the application to improve functionality of the applications, such as adding cycle tracking, home screen widgets for Apple iOS, and a discrete app icon option.  </p>
                 <h4>Roles</h4>
 <p>We did not set specific roles for the design and development of our application because the app design program which we used, Bubble io, did not have a free option which allowed multiple users to edit the application remotely. This meant that only one person could be elected to physically develop the application. We often shared screens whilst Trent was working on our application so that we could all offer input to the user interface, application features and its functionality, this led to all group members contributing toward all roles required to create the application. We found that this method was also pertinent to the nature of the group assignment in that we were collaborating on all aspects of the application development. </p>
 <h4>Scope and limits</h4>
